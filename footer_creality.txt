@@ -1,0 +1,31 @@
+
+M82 ;absolute extrusion mode
+
+M140 S0
+G91 ;Relative positioning
+G1 E-2 F2700 ;Retract a bit
+G1 E-2 Z0.2 F2400 ;Retract and raise Z
+G1 X5 Y5 F3000 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absolute positionning
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable all steppers but Z
+
+M104 S0
+;End of Gcode
+;SETTING_3 {"global_quality": "[general]\\nversion = 4\\nname = My setting\\ndef
+;SETTING_3 inition = creality_ender3pro\\n\\n[metadata]\\nquality_type = standar
+;SETTING_3 d\\ntype = quality_changes\\nsetting_version = 15\\nintent_category =
+;SETTING_3  default\\n\\n[values]\\nadhesion_type = none\\n\\n", "extruder_quali
+;SETTING_3 ty": ["[general]\\nversion = 4\\nname = My setting\\ndefinition = cre
+;SETTING_3 ality_ender3pro\\n\\n[metadata]\\nposition = 0\\nquality_type = stand
+;SETTING_3 ard\\ntype = quality_changes\\nsetting_version = 15\\nintent_category
+;SETTING_3  = default\\n\\n[values]\\ninfill_sparse_density = 100\\nmaterial_pri
+;SETTING_3 nt_temperature = 210\\ntop_bottom_thickness = 0\\nwall_line_count = 1
+;SETTING_3 \\nzig_zaggify_infill = True\\n\\n"]}
+

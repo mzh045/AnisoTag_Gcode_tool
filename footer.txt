@@ -1,0 +1,10 @@
+
+G1 F1500 E-6.5
+M140 S0
+M204 S3000
+M205 X20 Y20
+
+M82 ;absolute extrusion mode
+M104 S0
+M104 T1 S0
+;End of Gcode
