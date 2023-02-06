@@ -1,15 +1,6 @@
 # AnisoTag G-code tool
 
-The G-code tool proposed in "**AnisoTag: 3D Printed Tag on 2D Surface via Reflection Anisotropy**" published in Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (**CHI ’23**). [[DOI](https://doi.org/10.1145/3544548.3581024)] | [[arXiv](https://doi.org/10.48550/arXiv.2301.10599v2)]
-
-```bibtex
-@inproceedings{DBLP:conf/chi/abs-2301-10599,
-  author    = {Zehua Ma and Hang Zhou and Weiming Zhang},
-  title     = {AnisoTag: 3D Printed Tag on 2D Surface via Reflection Anisotropy},
-  year      = {2023},
-  doi       = {10.1145/3544548.3581024},
-  booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23)}}
-```
+The G-code tool proposed in "**AnisoTag: 3D Printed Tag on 2D Surface via Reflection Anisotropy**" published in Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (**CHI ’23**). [[DOI](https://doi.org/10.1145/3544548.3581024)] | [[arXiv](https://doi.org/10.48550/arXiv.2301.10599v2)] | [[Bibtex](#reference)]
 
 This tool could generate G-code instructing the 3D printer to fabricate smooth cylinder surface (SCS) microstructures in one rectangular region.
 
@@ -38,3 +29,17 @@ AnisoTag leverages the flowability and surface tension of molten material to fab
 ### Nonlinear mapping function
 `map_inverse.mat` is generated with $\mathcal{I}=f(\alpha, \phi, d)$ corresponding to our experimental settings. The relevant code is coming soon.
 
+---
+## Reference
+<span id="reference">
+
+```bibtex
+@inproceedings{DBLP:conf/chi/abs-2301-10599,
+  author    = {Zehua Ma and Hang Zhou and Weiming Zhang},
+  title     = {AnisoTag: 3D Printed Tag on 2D Surface via Reflection Anisotropy},
+  year      = {2023},
+  doi       = {10.1145/3544548.3581024},
+  booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23)}}
+```
+
+</span>
