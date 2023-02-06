@@ -1,6 +1,6 @@
 # AnisoTag G-code tool
 
-The G-code tool proposed in "**AnisoTag: 3D Printed Tag on 2D Surface via Reflection Anisotropy**" published in Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (**CHI ’23**). [[DOI](https://doi.org/10.1145/3544548.3581024)] | [[arXiv](https://doi.org/10.48550/arXiv.2301.10599v2)] | [[Bibtex](#reference)]
+The G-code tool proposed in "**AnisoTag: 3D Printed Tag on 2D Surface via Reflection Anisotropy**" published in Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (**CHI ’23**). [[DOI](https://doi.org/10.1145/3544548.3581024)] | [[arXiv](https://doi.org/10.48550/arXiv.2301.10599)] | [[Bibtex](#reference)]
 
 This tool could generate G-code instructing the 3D printer to fabricate smooth cylinder surface (SCS) microstructures in one rectangular region.
 
